@@ -11,6 +11,7 @@
         "bootstrap": "^4.6.0",
         "emailjs-com": "^2.6.4",
         "gh-pages": "^3.2.3",
+        "hot-reload-server": "^0.1.1",
         "react": "^17.0.1",
         "react-animated-cursor": "^2.1.8",
         "react-bootstrap": "^1.4.3",

@@ -4,6 +4,12 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import Pdf from "../../src/documents/ShivamBhandari_Resume.pdf";
+
+const onResumeClick = () => {
+  window.open(Pdf);
+};
+
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -12,6 +18,7 @@ const Headermain = () => {
     setActive(!isActive);
     document.body.classList.toggle("ovhidden");
   };
+
 
   return (
     <>
@@ -38,13 +45,13 @@ const Headermain = () => {
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                    <a  onClick={onResumeClick} className="my-3"> Resume</a>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
+                  <a href="mailto:shivambhandari@gmail.com" className="my-3"> Contact</a>
                   </li>
                 </ul>
               </div>
@@ -52,11 +59,9 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
-            <a href={socialprofils.facebook}>Facebook</a>
             <a href={socialprofils.github}>Github</a>
-            <a href={socialprofils.twitter}>Twitter</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
+            <p className="copyright m-0">{logotext}</p>
           </div>
         </div>
       </header>

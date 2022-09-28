@@ -4,6 +4,12 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import Pdf from "../../documents/ShivamBhandari_Resume.pdf";
+
+
+const onResumeClick = () => {
+  window.open(Pdf);
+};
 
 export const Home = () => {
   return (
@@ -39,22 +45,22 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio" className="text_2">
+                  <a onClick={onResumeClick} className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      My Portfolio
+                      My Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
-                  <Link to="/contact">
+                  </a>
+                  <a href="mailto:shivambhandari@gmail.com">
                     <div id="button_h" className="ac_btn btn">
                       Contact Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

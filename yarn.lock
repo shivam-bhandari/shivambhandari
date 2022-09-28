@@ -3157,14 +3157,14 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001157:
-  version "1.0.30001159"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001159.tgz#bebde28f893fa9594dadcaa7d6b8e2aa0299df20"
-  integrity sha512-w9Ph56jOsS8RL20K9cLND3u/+5WASWdhC/PPrf+V3/HsM3uHOavWOR1Xzakbv4Puo/srmPHudkmCRWM7Aq+/UA==
+  version "1.0.30001412"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001412.tgz"
+  integrity sha512-+TeEIee1gS5bYOiuf+PS/kp2mrXic37Hl66VY6EAfxasIk5fELTktK2oOezYed12H8w7jt3s512PpulQidPjwA==
 
 caniuse-lite@^1.0.30001125:
-  version "1.0.30001300"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001300.tgz#11ab6c57d3eb6f964cba950401fd00a146786468"
-  integrity sha512-cVjiJHWGcNlJi8TZVKNMnvMid3Z3TTdDHmLDzlOdIiZq138Exvo0G+G0wTdVYolxKb4AYwC+38pxodiInVtJSA==
+  version "1.0.30001412"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001412.tgz"
+  integrity sha512-+TeEIee1gS5bYOiuf+PS/kp2mrXic37Hl66VY6EAfxasIk5fELTktK2oOezYed12H8w7jt3s512PpulQidPjwA==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -5603,6 +5603,11 @@ hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
   integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
+
+hot-reload-server@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/hot-reload-server/-/hot-reload-server-0.1.1.tgz#64c4097e7420779e79760d9e1e45a3b2aeda6dae"
+  integrity sha512-I7Nt5EJiwp9sJuwaSRczdeq3TQ80wdkSj79hGU0x5P38AJaBy9FvYCoP2YqKVw+9IVUg196/vW/kppeWg1dx2w==
 
 hpack.js@^2.1.6:
   version "2.1.6"
